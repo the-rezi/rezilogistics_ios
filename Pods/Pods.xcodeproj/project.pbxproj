@@ -1,0 +1,1010 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21575987DFB7B7BFB632F50F9782F81A /* SideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC14B40268FB397A1FCC17F4F22F83F2 /* SideMenu-dummy.m */; };
+		244613ADA1EB87198190034F4E8BFA90 /* SideMenuTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7598A6E10428ED9DDC4A55AE73734FF0 /* SideMenuTransition.swift */; };
+		2D6C48B4D76318FEDC8F8237A3B091A5 /* SideMenuManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E702D889176C16900DBFD91292812 /* SideMenuManager.swift */; };
+		380ECE47D4EC1D854ED22A7B4D5F9363 /* Pods-ReziLogisticsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BAF9A3204B35E62F7B6AA2AC0F02286 /* Pods-ReziLogisticsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A086E634E3BC15FEF5CD1781DE88247 /* SideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D78130B99418B0684D23D1A2A1C8A5B5 /* SideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B03F1BEB467384B134C6B974DFA81A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		5BFB9A7B192C116770963A7EFBBC13E1 /* Pods-ReziLogistics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E11329C75CD46A34F1ACB3599D99DBD /* Pods-ReziLogistics-dummy.m */; };
+		7C6A12EB00F45EB8C906CAD204C87B96 /* Pods-ReziLogisticsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D243595985C0203E636E4FF69E90FBAC /* Pods-ReziLogisticsUITests-dummy.m */; };
+		822460B306A763300FD0C4C57265B635 /* Pods-ReziLogistics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E7B624B2E8D50042D029A48B4227A32 /* Pods-ReziLogistics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A4C0172227203997742AB77D6562A6C /* UISideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731998000FFE0BF8FDB44EECE0CF6D6C /* UISideMenuNavigationController.swift */; };
+		8FF7BA8550BEAA57742AB9D4D022CFED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		AF00077CD200F6F31286BABA4B08FC2C /* UITableViewVibrantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575298D0449A90B5D23EC072B8F2E9C0 /* UITableViewVibrantCell.swift */; };
+		C443766A17283C24AD0D7C6517C68E2D /* Pods-ReziLogisticsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87EBBBADCE4B598AB000665EC163DFF0 /* Pods-ReziLogisticsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFBC2B3B0778F99377238443F3F38B5D /* Pods-ReziLogisticsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0842BA32747BE728C182B9EF490B1CD7 /* Pods-ReziLogisticsTests-dummy.m */; };
+		DD86556E6F4AE7F70565E848D516E297 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		ED6D3F938A4C26F591AC22247E8B0C62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5231A267F6A5079573814751A954E6E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1646867CE742B4F5DB78C7736D75193;
+			remoteInfo = SideMenu;
+		};
+		88F14EEC4ADDCF4BC67FBE31B2A519B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 613C5BC6AE82968F9B0F4AD504F9CE28;
+			remoteInfo = "Pods-ReziLogistics";
+		};
+		BA11ADD1624FC34FD3F8A158ECB51802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 613C5BC6AE82968F9B0F4AD504F9CE28;
+			remoteInfo = "Pods-ReziLogistics";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0842BA32747BE728C182B9EF490B1CD7 /* Pods-ReziLogisticsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReziLogisticsTests-dummy.m"; sourceTree = "<group>"; };
+		0C04B4C988F8EED213C5E2798BC4C0DF /* SideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenu.xcconfig; sourceTree = "<group>"; };
+		0C7D66C85CEEF4FC39332D669E846A88 /* Pods-ReziLogisticsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReziLogisticsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1073854D53E64AE7C5D705A35C483B8A /* Pods-ReziLogistics-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReziLogistics-frameworks.sh"; sourceTree = "<group>"; };
+		187E702D889176C16900DBFD91292812 /* SideMenuManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuManager.swift; path = Pod/Classes/SideMenuManager.swift; sourceTree = "<group>"; };
+		211FA542EFD47F60787F94FC3074BBD7 /* Pods-ReziLogistics-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReziLogistics-acknowledgements.markdown"; sourceTree = "<group>"; };
+		21F396CD7AF87B66D1D1671A68623F63 /* Pods-ReziLogisticsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReziLogisticsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		2E11329C75CD46A34F1ACB3599D99DBD /* Pods-ReziLogistics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReziLogistics-dummy.m"; sourceTree = "<group>"; };
+		312A39E8EF079D3175D65AD5528D561D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31E98C19C762B7705C35A44159FE3F38 /* Pods-ReziLogisticsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReziLogisticsUITests-resources.sh"; sourceTree = "<group>"; };
+		3E7B624B2E8D50042D029A48B4227A32 /* Pods-ReziLogistics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReziLogistics-umbrella.h"; sourceTree = "<group>"; };
+		48195711E749F01CB557A13E560F1645 /* Pods-ReziLogisticsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReziLogisticsTests-frameworks.sh"; sourceTree = "<group>"; };
+		50C197040D9383A562F6CFE9584E4E04 /* Pods-ReziLogisticsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReziLogisticsUITests.modulemap"; sourceTree = "<group>"; };
+		51526B3573220E606CC101F4A4F84E7E /* Pods-ReziLogisticsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReziLogisticsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		575298D0449A90B5D23EC072B8F2E9C0 /* UITableViewVibrantCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UITableViewVibrantCell.swift; path = Pod/Classes/UITableViewVibrantCell.swift; sourceTree = "<group>"; };
+		57C9117EE7B411E623CFB51A0F9387F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59A425782795D7CCB4E22BB009B0B689 /* Pods-ReziLogisticsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReziLogisticsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5C753B2B87DDEE2CFE84C6F101780B95 /* Pods-ReziLogistics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReziLogistics.release.xcconfig"; sourceTree = "<group>"; };
+		64905D73417B6A9082EB64AA8FB52388 /* SideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-prefix.pch"; sourceTree = "<group>"; };
+		6601A135DA26EEE99DC47F42369EBD81 /* SideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenu.modulemap; sourceTree = "<group>"; };
+		701B19A08B0B1E1A013D31485E725B61 /* Pods-ReziLogistics-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReziLogistics-resources.sh"; sourceTree = "<group>"; };
+		731998000FFE0BF8FDB44EECE0CF6D6C /* UISideMenuNavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UISideMenuNavigationController.swift; path = Pod/Classes/UISideMenuNavigationController.swift; sourceTree = "<group>"; };
+		7598A6E10428ED9DDC4A55AE73734FF0 /* SideMenuTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuTransition.swift; path = Pod/Classes/SideMenuTransition.swift; sourceTree = "<group>"; };
+		7AD03FA9BE79184D4C6CB3ADC9A6782E /* Pods-ReziLogisticsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ReziLogisticsTests-resources.sh"; sourceTree = "<group>"; };
+		7BAF9A3204B35E62F7B6AA2AC0F02286 /* Pods-ReziLogisticsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReziLogisticsUITests-umbrella.h"; sourceTree = "<group>"; };
+		7FECEB85C88E3622EC83936B24FB09C6 /* Pods-ReziLogisticsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReziLogisticsTests.modulemap"; sourceTree = "<group>"; };
+		870DDCA8557A0A5D023E6E7E09158D17 /* Pods_ReziLogistics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReziLogistics.framework; path = "Pods-ReziLogistics.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87EBBBADCE4B598AB000665EC163DFF0 /* Pods-ReziLogisticsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReziLogisticsTests-umbrella.h"; sourceTree = "<group>"; };
+		8B583B02B8A4C4A70BD42772AEECB778 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		911564FD99018D87B9F2FCE5A52CCADC /* Pods-ReziLogisticsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReziLogisticsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A046D42E6AA9CD5AABCB42F19C4BD4C9 /* Pods-ReziLogistics-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReziLogistics-acknowledgements.plist"; sourceTree = "<group>"; };
+		A0C3BD29331C3CAEB5C92326A9ACDEB5 /* Pods-ReziLogistics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReziLogistics.debug.xcconfig"; sourceTree = "<group>"; };
+		A9C628F94D077E1418A0856A3E969E26 /* Pods-ReziLogisticsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReziLogisticsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ADA25684B19F2FEC1FA31003FEA07048 /* Pods_ReziLogisticsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReziLogisticsUITests.framework; path = "Pods-ReziLogisticsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE309900DC80DE043F4C3157FA90DE6 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenu.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0478EDE6B2D133077DA3B5A284F340E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5B7237B512956C9603850D757EB375 /* Pods-ReziLogistics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReziLogistics.modulemap"; sourceTree = "<group>"; };
+		BB1980DBEAAFBEF5E5DD5E22863CFB0E /* Pods_ReziLogisticsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ReziLogisticsTests.framework; path = "Pods-ReziLogisticsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D243595985C0203E636E4FF69E90FBAC /* Pods-ReziLogisticsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReziLogisticsUITests-dummy.m"; sourceTree = "<group>"; };
+		D2B5A2577B10B8EDF4D59A4C6A8D4A40 /* Pods-ReziLogisticsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReziLogisticsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D78130B99418B0684D23D1A2A1C8A5B5 /* SideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenu-umbrella.h"; sourceTree = "<group>"; };
+		E4898BB3570D2D92BD59216FE561E7E6 /* Pods-ReziLogisticsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReziLogisticsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EC14B40268FB397A1FCC17F4F22F83F2 /* SideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenu-dummy.m"; sourceTree = "<group>"; };
+		F55DA3C27745E57729B829BD4D16EFC1 /* NMAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMAKit.framework; path = framework/NMAKit.framework; sourceTree = "<group>"; };
+		F593287CF2B66FBFDB9D01C7C24C85C2 /* Pods-ReziLogisticsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReziLogisticsTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		557110068443672DA96030EF5CAB86E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B03F1BEB467384B134C6B974DFA81A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D8AFFDC86CF295CE00B1567EBDC0820 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6D3F938A4C26F591AC22247E8B0C62 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931A5089FB63DA92D5A5A79273E3C21A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF7BA8550BEAA57742AB9D4D022CFED /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1499D5A206512921018E99CAA28E17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD86556E6F4AE7F70565E848D516E297 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08153529B9B6E157D64AB8E1B56B8F09 /* HEREMapsStarter */ = {
+			isa = PBXGroup;
+			children = (
+				18EE2D37395C52073D5956F8FD54420D /* Frameworks */,
+			);
+			name = HEREMapsStarter;
+			path = HEREMapsStarter;
+			sourceTree = "<group>";
+		};
+		09B781B3425EE957936915A2FE957A55 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				187E702D889176C16900DBFD91292812 /* SideMenuManager.swift */,
+				7598A6E10428ED9DDC4A55AE73734FF0 /* SideMenuTransition.swift */,
+				731998000FFE0BF8FDB44EECE0CF6D6C /* UISideMenuNavigationController.swift */,
+				575298D0449A90B5D23EC072B8F2E9C0 /* UITableViewVibrantCell.swift */,
+				FBD4C1295EDF8F402D52271EF2D90188 /* Support Files */,
+			);
+			name = SideMenu;
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		16ED27A13A8B1B2198880B89288D563B /* Pods-ReziLogisticsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B583B02B8A4C4A70BD42772AEECB778 /* Info.plist */,
+				50C197040D9383A562F6CFE9584E4E04 /* Pods-ReziLogisticsUITests.modulemap */,
+				0C7D66C85CEEF4FC39332D669E846A88 /* Pods-ReziLogisticsUITests-acknowledgements.markdown */,
+				59A425782795D7CCB4E22BB009B0B689 /* Pods-ReziLogisticsUITests-acknowledgements.plist */,
+				D243595985C0203E636E4FF69E90FBAC /* Pods-ReziLogisticsUITests-dummy.m */,
+				21F396CD7AF87B66D1D1671A68623F63 /* Pods-ReziLogisticsUITests-frameworks.sh */,
+				31E98C19C762B7705C35A44159FE3F38 /* Pods-ReziLogisticsUITests-resources.sh */,
+				7BAF9A3204B35E62F7B6AA2AC0F02286 /* Pods-ReziLogisticsUITests-umbrella.h */,
+				51526B3573220E606CC101F4A4F84E7E /* Pods-ReziLogisticsUITests.debug.xcconfig */,
+				911564FD99018D87B9F2FCE5A52CCADC /* Pods-ReziLogisticsUITests.release.xcconfig */,
+			);
+			name = "Pods-ReziLogisticsUITests";
+			path = "Target Support Files/Pods-ReziLogisticsUITests";
+			sourceTree = "<group>";
+		};
+		18EE2D37395C52073D5956F8FD54420D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F55DA3C27745E57729B829BD4D16EFC1 /* NMAKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2654CDD6B89ACBA9D7672CCB768EEE38 /* Pods-ReziLogisticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0478EDE6B2D133077DA3B5A284F340E /* Info.plist */,
+				7FECEB85C88E3622EC83936B24FB09C6 /* Pods-ReziLogisticsTests.modulemap */,
+				D2B5A2577B10B8EDF4D59A4C6A8D4A40 /* Pods-ReziLogisticsTests-acknowledgements.markdown */,
+				E4898BB3570D2D92BD59216FE561E7E6 /* Pods-ReziLogisticsTests-acknowledgements.plist */,
+				0842BA32747BE728C182B9EF490B1CD7 /* Pods-ReziLogisticsTests-dummy.m */,
+				48195711E749F01CB557A13E560F1645 /* Pods-ReziLogisticsTests-frameworks.sh */,
+				7AD03FA9BE79184D4C6CB3ADC9A6782E /* Pods-ReziLogisticsTests-resources.sh */,
+				87EBBBADCE4B598AB000665EC163DFF0 /* Pods-ReziLogisticsTests-umbrella.h */,
+				A9C628F94D077E1418A0856A3E969E26 /* Pods-ReziLogisticsTests.debug.xcconfig */,
+				F593287CF2B66FBFDB9D01C7C24C85C2 /* Pods-ReziLogisticsTests.release.xcconfig */,
+			);
+			name = "Pods-ReziLogisticsTests";
+			path = "Target Support Files/Pods-ReziLogisticsTests";
+			sourceTree = "<group>";
+		};
+		27B2D3C19C4A41148991836F80D63842 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08153529B9B6E157D64AB8E1B56B8F09 /* HEREMapsStarter */,
+				09B781B3425EE957936915A2FE957A55 /* SideMenu */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7D66B85C59BB0D26E9284BCB880BB516 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB02580AE934922A80223CC8FB766AF7 /* Pods-ReziLogistics */,
+				2654CDD6B89ACBA9D7672CCB768EEE38 /* Pods-ReziLogisticsTests */,
+				16ED27A13A8B1B2198880B89288D563B /* Pods-ReziLogisticsUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				27B2D3C19C4A41148991836F80D63842 /* Pods */,
+				E194B6D9712D6FB50070E20E98B0405E /* Products */,
+				7D66B85C59BB0D26E9284BCB880BB516 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44D5347904CF754D6785B84253F2574A /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E194B6D9712D6FB50070E20E98B0405E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				870DDCA8557A0A5D023E6E7E09158D17 /* Pods_ReziLogistics.framework */,
+				BB1980DBEAAFBEF5E5DD5E22863CFB0E /* Pods_ReziLogisticsTests.framework */,
+				ADA25684B19F2FEC1FA31003FEA07048 /* Pods_ReziLogisticsUITests.framework */,
+				AFE309900DC80DE043F4C3157FA90DE6 /* SideMenu.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB02580AE934922A80223CC8FB766AF7 /* Pods-ReziLogistics */ = {
+			isa = PBXGroup;
+			children = (
+				312A39E8EF079D3175D65AD5528D561D /* Info.plist */,
+				BA5B7237B512956C9603850D757EB375 /* Pods-ReziLogistics.modulemap */,
+				211FA542EFD47F60787F94FC3074BBD7 /* Pods-ReziLogistics-acknowledgements.markdown */,
+				A046D42E6AA9CD5AABCB42F19C4BD4C9 /* Pods-ReziLogistics-acknowledgements.plist */,
+				2E11329C75CD46A34F1ACB3599D99DBD /* Pods-ReziLogistics-dummy.m */,
+				1073854D53E64AE7C5D705A35C483B8A /* Pods-ReziLogistics-frameworks.sh */,
+				701B19A08B0B1E1A013D31485E725B61 /* Pods-ReziLogistics-resources.sh */,
+				3E7B624B2E8D50042D029A48B4227A32 /* Pods-ReziLogistics-umbrella.h */,
+				A0C3BD29331C3CAEB5C92326A9ACDEB5 /* Pods-ReziLogistics.debug.xcconfig */,
+				5C753B2B87DDEE2CFE84C6F101780B95 /* Pods-ReziLogistics.release.xcconfig */,
+			);
+			name = "Pods-ReziLogistics";
+			path = "Target Support Files/Pods-ReziLogistics";
+			sourceTree = "<group>";
+		};
+		FBD4C1295EDF8F402D52271EF2D90188 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57C9117EE7B411E623CFB51A0F9387F5 /* Info.plist */,
+				6601A135DA26EEE99DC47F42369EBD81 /* SideMenu.modulemap */,
+				0C04B4C988F8EED213C5E2798BC4C0DF /* SideMenu.xcconfig */,
+				EC14B40268FB397A1FCC17F4F22F83F2 /* SideMenu-dummy.m */,
+				64905D73417B6A9082EB64AA8FB52388 /* SideMenu-prefix.pch */,
+				D78130B99418B0684D23D1A2A1C8A5B5 /* SideMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenu";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B9C72057A15AABCC394A2CA576F068C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C443766A17283C24AD0D7C6517C68E2D /* Pods-ReziLogisticsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48CF76FF0F6BFD58A73D706D4739E20F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380ECE47D4EC1D854ED22A7B4D5F9363 /* Pods-ReziLogisticsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53109E7C74FECB723CC73589166B20E6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A086E634E3BC15FEF5CD1781DE88247 /* SideMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7ED278D7D19BAF7B38ABB7563299246 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822460B306A763300FD0C4C57265B635 /* Pods-ReziLogistics-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5611340EF7C4F93FD0BDA4D13B261CEE /* Pods-ReziLogisticsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32AA500AD8433075B41986CE7B9EF723 /* Build configuration list for PBXNativeTarget "Pods-ReziLogisticsUITests" */;
+			buildPhases = (
+				48CF76FF0F6BFD58A73D706D4739E20F /* Headers */,
+				A3671FE93DC7D90162D4DB0C06DA7007 /* Sources */,
+				C1499D5A206512921018E99CAA28E17A /* Frameworks */,
+				89A77792FC67A08745A8EDB383EF79C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55210A270F44AC0C1936CAAA16012481 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReziLogisticsUITests";
+			productName = "Pods-ReziLogisticsUITests";
+			productReference = ADA25684B19F2FEC1FA31003FEA07048 /* Pods_ReziLogisticsUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		613C5BC6AE82968F9B0F4AD504F9CE28 /* Pods-ReziLogistics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FFCC48177D685265BFE7181766CFB39 /* Build configuration list for PBXNativeTarget "Pods-ReziLogistics" */;
+			buildPhases = (
+				E7ED278D7D19BAF7B38ABB7563299246 /* Headers */,
+				AEC3C6C9D202D9895B51310998457C91 /* Sources */,
+				931A5089FB63DA92D5A5A79273E3C21A /* Frameworks */,
+				6BC247165095C51A07CBA665D934A501 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98DBDF21B302B41102AEA55E1102CBF7 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReziLogistics";
+			productName = "Pods-ReziLogistics";
+			productReference = 870DDCA8557A0A5D023E6E7E09158D17 /* Pods_ReziLogistics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1646867CE742B4F5DB78C7736D75193 /* SideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA32508CFB72E2F57A9A7578DDD57287 /* Build configuration list for PBXNativeTarget "SideMenu" */;
+			buildPhases = (
+				53109E7C74FECB723CC73589166B20E6 /* Headers */,
+				FFD620C15CB1313F86FA405B69642396 /* Sources */,
+				6D8AFFDC86CF295CE00B1567EBDC0820 /* Frameworks */,
+				BAF6BA211D8D97DBE424BEC2C2678ED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenu;
+			productName = SideMenu;
+			productReference = AFE309900DC80DE043F4C3157FA90DE6 /* SideMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC584883140CD605A338B94FE42C27B2 /* Pods-ReziLogisticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AAB985DA38F4DDB282B415ABCF0A38C /* Build configuration list for PBXNativeTarget "Pods-ReziLogisticsTests" */;
+			buildPhases = (
+				0B9C72057A15AABCC394A2CA576F068C /* Headers */,
+				0D31D801F1E6D368F29A2C02F7624D7B /* Sources */,
+				557110068443672DA96030EF5CAB86E2 /* Frameworks */,
+				0537F1E87B530D7393F2B088E68E7879 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10AE167CAAEC00461F73C2C81A9FCA9F /* PBXTargetDependency */,
+			);
+			name = "Pods-ReziLogisticsTests";
+			productName = "Pods-ReziLogisticsTests";
+			productReference = BB1980DBEAAFBEF5E5DD5E22863CFB0E /* Pods_ReziLogisticsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E194B6D9712D6FB50070E20E98B0405E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				613C5BC6AE82968F9B0F4AD504F9CE28 /* Pods-ReziLogistics */,
+				CC584883140CD605A338B94FE42C27B2 /* Pods-ReziLogisticsTests */,
+				5611340EF7C4F93FD0BDA4D13B261CEE /* Pods-ReziLogisticsUITests */,
+				A1646867CE742B4F5DB78C7736D75193 /* SideMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0537F1E87B530D7393F2B088E68E7879 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC247165095C51A07CBA665D934A501 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A77792FC67A08745A8EDB383EF79C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAF6BA211D8D97DBE424BEC2C2678ED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D31D801F1E6D368F29A2C02F7624D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBC2B3B0778F99377238443F3F38B5D /* Pods-ReziLogisticsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3671FE93DC7D90162D4DB0C06DA7007 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C6A12EB00F45EB8C906CAD204C87B96 /* Pods-ReziLogisticsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEC3C6C9D202D9895B51310998457C91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFB9A7B192C116770963A7EFBBC13E1 /* Pods-ReziLogistics-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD620C15CB1313F86FA405B69642396 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21575987DFB7B7BFB632F50F9782F81A /* SideMenu-dummy.m in Sources */,
+				2D6C48B4D76318FEDC8F8237A3B091A5 /* SideMenuManager.swift in Sources */,
+				244613ADA1EB87198190034F4E8BFA90 /* SideMenuTransition.swift in Sources */,
+				8A4C0172227203997742AB77D6562A6C /* UISideMenuNavigationController.swift in Sources */,
+				AF00077CD200F6F31286BABA4B08FC2C /* UITableViewVibrantCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10AE167CAAEC00461F73C2C81A9FCA9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ReziLogistics";
+			target = 613C5BC6AE82968F9B0F4AD504F9CE28 /* Pods-ReziLogistics */;
+			targetProxy = 88F14EEC4ADDCF4BC67FBE31B2A519B9 /* PBXContainerItemProxy */;
+		};
+		55210A270F44AC0C1936CAAA16012481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ReziLogistics";
+			target = 613C5BC6AE82968F9B0F4AD504F9CE28 /* Pods-ReziLogistics */;
+			targetProxy = BA11ADD1624FC34FD3F8A158ECB51802 /* PBXContainerItemProxy */;
+		};
+		98DBDF21B302B41102AEA55E1102CBF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenu;
+			target = A1646867CE742B4F5DB78C7736D75193 /* SideMenu */;
+			targetProxy = 5231A267F6A5079573814751A954E6E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0C492C3B5BB04D102190876959365D1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911564FD99018D87B9F2FCE5A52CCADC /* Pods-ReziLogisticsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReziLogisticsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReziLogisticsUITests/Pods-ReziLogisticsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8000995DA02063BF3777393CD52061DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8CBC32BD172C87B1B16DE54596F46074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C753B2B87DDEE2CFE84C6F101780B95 /* Pods-ReziLogistics.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReziLogistics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReziLogistics/Pods-ReziLogistics.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A572F4CD1F4B644BA52A04C33C42C83F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C04B4C988F8EED213C5E2798BC4C0DF /* SideMenu.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CCAF0E2AB2B52ECB89D5DED1B4EE0391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F593287CF2B66FBFDB9D01C7C24C85C2 /* Pods-ReziLogisticsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReziLogisticsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReziLogisticsTests/Pods-ReziLogisticsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CE6B772BF5C8BF559D3FF284A6227378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C628F94D077E1418A0856A3E969E26 /* Pods-ReziLogisticsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReziLogisticsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReziLogisticsTests/Pods-ReziLogisticsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D40BF6153003F1C5EFBEB389B7E907AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0C3BD29331C3CAEB5C92326A9ACDEB5 /* Pods-ReziLogistics.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReziLogistics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReziLogistics/Pods-ReziLogistics.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5F95F8F69AE902F386442462037BA6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51526B3573220E606CC101F4A4F84E7E /* Pods-ReziLogisticsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ReziLogisticsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReziLogisticsUITests/Pods-ReziLogisticsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE365F98950DD7FE6481695BAC18D452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C04B4C988F8EED213C5E2798BC4C0DF /* SideMenu.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenu/SideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenu/SideMenu.modulemap";
+				PRODUCT_MODULE_NAME = SideMenu;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA3B91655AF95B1F49159CD8085CD89 /* Debug */,
+				8000995DA02063BF3777393CD52061DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32AA500AD8433075B41986CE7B9EF723 /* Build configuration list for PBXNativeTarget "Pods-ReziLogisticsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F95F8F69AE902F386442462037BA6B /* Debug */,
+				0C492C3B5BB04D102190876959365D1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FFCC48177D685265BFE7181766CFB39 /* Build configuration list for PBXNativeTarget "Pods-ReziLogistics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40BF6153003F1C5EFBEB389B7E907AB /* Debug */,
+				8CBC32BD172C87B1B16DE54596F46074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AAB985DA38F4DDB282B415ABCF0A38C /* Build configuration list for PBXNativeTarget "Pods-ReziLogisticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6B772BF5C8BF559D3FF284A6227378 /* Debug */,
+				CCAF0E2AB2B52ECB89D5DED1B4EE0391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA32508CFB72E2F57A9A7578DDD57287 /* Build configuration list for PBXNativeTarget "SideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE365F98950DD7FE6481695BAC18D452 /* Debug */,
+				A572F4CD1F4B644BA52A04C33C42C83F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_ReziLogisticsUITests {
+  umbrella header "Pods-ReziLogisticsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

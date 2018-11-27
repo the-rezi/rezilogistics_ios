@@ -8,6 +8,8 @@
 
 import UIKit
 
+import NMAKit
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -16,6 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let kHelloMapAppID = "VyKL3rPfQEYgPEtJ2wr9"
+        let kHelloMapAppCode = "yRhzUnxF1jCio3XrwaaEyw"
+        
+        NMAApplicationContext.set(appId: kHelloMapAppID, appCode: kHelloMapAppCode)
+        
         return true
     }
 

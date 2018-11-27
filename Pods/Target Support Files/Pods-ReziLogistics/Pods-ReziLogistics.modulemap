@@ -1,0 +1,6 @@
+framework module Pods_ReziLogistics {
+  umbrella header "Pods-ReziLogistics-umbrella.h"
+
+  export *
+  module * { export * }
+}

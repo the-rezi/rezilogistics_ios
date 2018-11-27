@@ -1,0 +1,20 @@
+PODS:
+  - HEREMapsStarter (3.9.0)
+  - SideMenu (5.0.3)
+
+DEPENDENCIES:
+  - HEREMapsStarter
+  - SideMenu
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HEREMapsStarter
+    - SideMenu
+
+SPEC CHECKSUMS:
+  HEREMapsStarter: 57f26af1eb7ecc97c4dd5ac83cfe3615503b4fe2
+  SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
+
+PODFILE CHECKSUM: 779802863166cfee265cb2e1d3d232506be02f04
+
+COCOAPODS: 1.5.3

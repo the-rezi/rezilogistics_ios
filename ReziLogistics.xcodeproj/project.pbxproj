@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05CCC85F0C54CEE15012C9AD /* Pods_ReziLogisticsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F62CEB6E11A44AE0DC29D40 /* Pods_ReziLogisticsTests.framework */; };
 		50A431B6219DE9E5000EE949 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A431B5219DE9E5000EE949 /* AppDelegate.swift */; };
 		50A431B8219DE9E5000EE949 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A431B7219DE9E5000EE949 /* ViewController.swift */; };
 		50A431BB219DE9E5000EE949 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A431B9219DE9E5000EE949 /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		50A431C0219DE9E7000EE949 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50A431BE219DE9E7000EE949 /* LaunchScreen.storyboard */; };
 		50A431CB219DE9E7000EE949 /* ReziLogisticsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A431CA219DE9E7000EE949 /* ReziLogisticsTests.swift */; };
 		50A431D6219DE9E7000EE949 /* ReziLogisticsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A431D5219DE9E7000EE949 /* ReziLogisticsUITests.swift */; };
+		50DF6FF0219E09E6003E662F /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DF6FEF219E09E6003E662F /* NavigationViewController.swift */; };
+		D3FD78BFFCB0E95AC105FB71 /* Pods_ReziLogisticsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6775E2C56CE7A746AED446 /* Pods_ReziLogisticsUITests.framework */; };
+		F0917AAEC17B09B3E3ABC1E1 /* Pods_ReziLogistics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2024D4E118468DBD886D69A /* Pods_ReziLogistics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		117E617F26BCC4F87100E71B /* Pods-ReziLogisticsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReziLogisticsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReziLogisticsUITests/Pods-ReziLogisticsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		247649238C60BC20F8A86978 /* Pods-ReziLogisticsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReziLogisticsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReziLogisticsTests/Pods-ReziLogisticsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F62CEB6E11A44AE0DC29D40 /* Pods_ReziLogisticsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReziLogisticsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		323CA9CB2973381735628DFB /* Pods-ReziLogistics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReziLogistics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReziLogistics/Pods-ReziLogistics.debug.xcconfig"; sourceTree = "<group>"; };
 		50A431B2219DE9E5000EE949 /* ReziLogistics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReziLogistics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A431B5219DE9E5000EE949 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50A431B7219DE9E5000EE949 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,12 @@
 		50A431D1219DE9E7000EE949 /* ReziLogisticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReziLogisticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50A431D5219DE9E7000EE949 /* ReziLogisticsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReziLogisticsUITests.swift; sourceTree = "<group>"; };
 		50A431D7219DE9E7000EE949 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50DF6FEF219E09E6003E662F /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		5E6775E2C56CE7A746AED446 /* Pods_ReziLogisticsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReziLogisticsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7160424E08A14E63E826D16C /* Pods-ReziLogisticsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReziLogisticsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReziLogisticsTests/Pods-ReziLogisticsTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF7D466EA2B6249941A06BC6 /* Pods-ReziLogisticsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReziLogisticsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReziLogisticsUITests/Pods-ReziLogisticsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D2024D4E118468DBD886D69A /* Pods_ReziLogistics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReziLogistics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0036932D0C039FEBD063E1 /* Pods-ReziLogistics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReziLogistics.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReziLogistics/Pods-ReziLogistics.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0917AAEC17B09B3E3ABC1E1 /* Pods_ReziLogistics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05CCC85F0C54CEE15012C9AD /* Pods_ReziLogisticsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3FD78BFFCB0E95AC105FB71 /* Pods_ReziLogisticsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,8 @@
 				50A431C9219DE9E7000EE949 /* ReziLogisticsTests */,
 				50A431D4219DE9E7000EE949 /* ReziLogisticsUITests */,
 				50A431B3219DE9E5000EE949 /* Products */,
+				CE5833DC4E38B72FA9E49E47 /* Pods */,
+				74494C5AEE0AB654D0A2C3E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +119,7 @@
 				50A431B5219DE9E5000EE949 /* AppDelegate.swift */,
 				50A431B7219DE9E5000EE949 /* ViewController.swift */,
 				50A431B9219DE9E5000EE949 /* Main.storyboard */,
+				50DF6FEF219E09E6003E662F /* NavigationViewController.swift */,
 				50A431BC219DE9E7000EE949 /* Assets.xcassets */,
 				50A431BE219DE9E7000EE949 /* LaunchScreen.storyboard */,
 				50A431C1219DE9E7000EE949 /* Info.plist */,
@@ -125,6 +145,29 @@
 			path = ReziLogisticsUITests;
 			sourceTree = "<group>";
 		};
+		74494C5AEE0AB654D0A2C3E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2024D4E118468DBD886D69A /* Pods_ReziLogistics.framework */,
+				2F62CEB6E11A44AE0DC29D40 /* Pods_ReziLogisticsTests.framework */,
+				5E6775E2C56CE7A746AED446 /* Pods_ReziLogisticsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE5833DC4E38B72FA9E49E47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				323CA9CB2973381735628DFB /* Pods-ReziLogistics.debug.xcconfig */,
+				ED0036932D0C039FEBD063E1 /* Pods-ReziLogistics.release.xcconfig */,
+				247649238C60BC20F8A86978 /* Pods-ReziLogisticsTests.debug.xcconfig */,
+				7160424E08A14E63E826D16C /* Pods-ReziLogisticsTests.release.xcconfig */,
+				117E617F26BCC4F87100E71B /* Pods-ReziLogisticsUITests.debug.xcconfig */,
+				BF7D466EA2B6249941A06BC6 /* Pods-ReziLogisticsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50A431DA219DE9E7000EE949 /* Build configuration list for PBXNativeTarget "ReziLogistics" */;
 			buildPhases = (
+				4CC8CAD455A3D2317F117044 /* [CP] Check Pods Manifest.lock */,
 				50A431AE219DE9E5000EE949 /* Sources */,
 				50A431AF219DE9E5000EE949 /* Frameworks */,
 				50A431B0219DE9E5000EE949 /* Resources */,
+				7A11661F659009861B90DFC5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50A431DD219DE9E7000EE949 /* Build configuration list for PBXNativeTarget "ReziLogisticsTests" */;
 			buildPhases = (
+				EE455E4C381AFEF2BE8E0388 /* [CP] Check Pods Manifest.lock */,
 				50A431C2219DE9E7000EE949 /* Sources */,
 				50A431C3219DE9E7000EE949 /* Frameworks */,
 				50A431C4219DE9E7000EE949 /* Resources */,
@@ -167,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50A431E0219DE9E7000EE949 /* Build configuration list for PBXNativeTarget "ReziLogisticsUITests" */;
 			buildPhases = (
+				1CEDFE0FE6D8A25D03AE3646 /* [CP] Check Pods Manifest.lock */,
 				50A431CD219DE9E7000EE949 /* Sources */,
 				50A431CE219DE9E7000EE949 /* Frameworks */,
 				50A431CF219DE9E7000EE949 /* Resources */,
@@ -251,11 +298,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1CEDFE0FE6D8A25D03AE3646 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReziLogisticsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CC8CAD455A3D2317F117044 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReziLogistics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A11661F659009861B90DFC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ReziLogistics/Pods-ReziLogistics-frameworks.sh",
+				"${PODS_ROOT}/HEREMapsStarter/framework/NMAKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NMAKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReziLogistics/Pods-ReziLogistics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE455E4C381AFEF2BE8E0388 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReziLogisticsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		50A431AE219DE9E5000EE949 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50DF6FF0219E09E6003E662F /* NavigationViewController.swift in Sources */,
 				50A431B8219DE9E5000EE949 /* ViewController.swift in Sources */,
 				50A431B6219DE9E5000EE949 /* AppDelegate.swift in Sources */,
 			);
@@ -430,6 +571,7 @@
 		};
 		50A431DB219DE9E7000EE949 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 323CA9CB2973381735628DFB /* Pods-ReziLogistics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +589,7 @@
 		};
 		50A431DC219DE9E7000EE949 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0036932D0C039FEBD063E1 /* Pods-ReziLogistics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +607,7 @@
 		};
 		50A431DE219DE9E7000EE949 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247649238C60BC20F8A86978 /* Pods-ReziLogisticsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +628,7 @@
 		};
 		50A431DF219DE9E7000EE949 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7160424E08A14E63E826D16C /* Pods-ReziLogisticsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +649,7 @@
 		};
 		50A431E1219DE9E7000EE949 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 117E617F26BCC4F87100E71B /* Pods-ReziLogisticsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +669,7 @@
 		};
 		50A431E2219DE9E7000EE949 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF7D466EA2B6249941A06BC6 /* Pods-ReziLogisticsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
