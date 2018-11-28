@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import NMAKit
 
 class ViewController: UIViewController {
 
